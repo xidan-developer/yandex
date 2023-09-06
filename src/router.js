@@ -19,25 +19,6 @@ export default new Router({
       name: "resume",
       component: () =>
         import( /* webpackChunkName: "about" */ "./views/Resume.vue")
-    },
-
-    {
-      path: "/services",
-      name: "services",
-      component: () =>
-        import( /* webpackChunkName: "about" */ "./views/Services.vue")
-    },
-    {
-      path: "/portfolio",
-      name: "portfolio",
-      component: () =>
-        import( /* webpackChunkName: "about" */ "./views/Portfolio/Portfolio.vue")
-    },
-    {
-      path: "*",
-      name: "Error",
-      component: () =>
-        import( /* webpackChunkName: "about" */ "./views/Error.vue")
     }
   ]
 });

@@ -7,21 +7,12 @@
             <v-list-tile-title>Главная</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
-        <v-list-tile active-class="green--text" to="/resume">
-          <v-list-tile-content>
-            <v-list-tile-title>Задание 2(блок 1)</v-list-tile-title>
-          </v-list-tile-content>
-        </v-list-tile>
-        <v-list-tile active-class="green--text" to="/services">
-          <v-list-tile-content>
-            <v-list-tile-title>Задание 2(блок 2)</v-list-tile-title>
-          </v-list-tile-content>
-        </v-list-tile>
-        <v-list-tile active-class="green--text" to="/portfolio">
-          <v-list-tile-content>
-            <v-list-tile-title>Задание 2(блок 3)</v-list-tile-title>
-          </v-list-tile-content>
-        </v-list-tile>
+<!--        <v-list-tile active-class="green&#45;&#45;text" to="/resume">-->
+<!--          <v-list-tile-content>-->
+<!--            <v-list-tile-title>Сила JS</v-list-tile-title>-->
+<!--          </v-list-tile-content>-->
+<!--        </v-list-tile>-->
+
       </v-list>
     </v-navigation-drawer>
     <v-toolbar flat dense color="transparent" scroll-off-screen>
@@ -34,10 +25,7 @@
 
       <v-toolbar-items class="hidden-sm-and-down">
         <v-btn flat to="/" active-class="green--text headline">Главная</v-btn>
-        <v-btn flat to="/resume" active-class="green--text headline">Задание 2(блок 1)</v-btn>
-        <v-btn flat to="/services" active-class="green--text headline">Задание 2(блок 2)</v-btn>
-        <v-btn flat to="/portfolio" active-class="green--text headline">Задание 2(блок 3)</v-btn>
-
+<!--        <v-btn flat to="/resume" active-class="green&#45;&#45;text headline">Сила JS</v-btn>-->
       </v-toolbar-items>
     </v-toolbar>
   </div>

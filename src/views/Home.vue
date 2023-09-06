@@ -86,7 +86,7 @@ export default {
   data() {
     return {
       icons: [
-        { href: "https://github.com/EldinZaimovic", icon: "fab fa-github" },
+        { href: "https://github.com/xidan-developer/yandex", icon: "fab fa-github" },
         {
           href: "https://vk.com/xidan", icon: "fab fa-vk"
         },
