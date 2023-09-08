@@ -37,7 +37,9 @@
             </div>
           </div>
         </v-card-title>
-
+        <v-flex>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/rPWU1G6JShw?si=D6eCpheuLOv_LnAU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </v-flex>
         <v-card-actions class="hidden-sm-and-down">
           <v-btn
             v-for="icon in icons"
@@ -53,21 +55,7 @@
           </v-btn>
         </v-card-actions>
 
-        <v-card-actions class="hidden-md-and-up justify-center">
-          <v-btn
-            v-for="icon in icons"
-            :key="icon.icon"
-            small
-            fab
-            dark
-            outline
-            color="green"
-            :href="icon.href"
-            target="_blank"
-          >
-            <v-icon dark>{{icon.icon}}</v-icon>
-          </v-btn>
-        </v-card-actions>
+
       </v-card>
     </v-flex>
   </v-layout>
